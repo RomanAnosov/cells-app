@@ -1,0 +1,33 @@
+.icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    &_type {
+        &_dead {
+            background: linear-gradient(180deg, #0d658a 0%, #b0ffb4 100%);
+
+            &:after {
+                content: "💀";
+            }
+        }
+
+        &_alive {
+            background: linear-gradient(180deg, #ffb800 0%, #fff7b0 100%);
+
+            &:after {
+                content: "💥";
+            }
+        }
+
+        &_life {
+            background: linear-gradient(180deg, #ad00ff 0%, #ffb0e9 100%);
+
+            &:after {
+                content: "🐣";
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.card {
+    height: 72px;
+    width: 328px;
+    background: #ffffff;
+    border-radius: 8px;
+    display: flex;
+    padding: 16px;
+    box-sizing: border-box;
+    align-items: center;
+    
+    &__name {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+        color: #000000;
+        margin: 0;
+    }
+
+    &__info {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+    &__icon {
+        margin-right: 16px;
+    }
+}
